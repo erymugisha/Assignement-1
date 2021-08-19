@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <script src="index.js"> </script>
+    
     <script src="https://kit.fontawesome.com/2a1dbef2e0.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
@@ -16,14 +16,17 @@
         <p class="inter">subscribe and get notified</p>
     <div class="box">
         <input font-size="5px" id="email" type="text" placeholder="Your email address... ">
-        <button id="btn">Notify Me</button>
+        <button id="btn" onclick="submit()">Notify Me</button>
+        <p id="error_msg"></p>
     </div>
+
     <br> 
     <div class="img">
-        <div>
-            <img class="page" src="imgs/illustration-dashboard.png" alt="" >
-        </div>
-    </div> 
+        <img class="page" src="imgs/illustration-dashboard.png" alt="" >
+    </div>
+    
+            
+ 
       
         <div class="container">
             <nav class="footer-nav">
@@ -42,6 +45,6 @@
             </nav>
             <p class="button">&copy Copyrigth Ping,All rigths served.</p>
         </div>
-    	
+        <script src="index.js"> </script>    	
 </body>    
 </html>
